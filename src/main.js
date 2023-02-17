@@ -1,15 +1,30 @@
-// let var const
+// null
+const aptNumber = null
+console.log(aptNumber, typeof aptNumber)
 
-const arr = [1, 2, 3, 4]
-arr.push(5)
-console.log(arr)
+// undefined
+let minSal;
+console.log(minSal, typeof minSal)
+
+const maxSal = undefined
+console.log(maxSal, typeof maxSal)
+
+// symbol
+const symbol = Symbol('int')
+console.log(symbol, typeof symbol)
+
+// Reference type
+const arr = [1,2,3,4]
+console.log(arr, typeof arr)
 
 const person = {
-  name: 'John'
+  name: 'John',
+  age: 21
 }
 
-person.email = "imskanand@gmail.com"
-console.log(person)
+console.log(person, typeof person)
 
-const name = 'imskanand', age = 21, isMarried = false;
-console.log(name, age, isMarried)
+function sayHello() {
+  console.log('Hello')
+}
+console.log(sayHello, typeof sayHello)
