@@ -1,3 +1,5 @@
+// console Methods
+
 console.log("Hello world!")
 
 console.log(10, 'imskanand', true)
@@ -12,3 +14,8 @@ console.groupEnd()
 
 const style = 'padding:10px; background-color:green; text:white;'
 console.log('%c Shubham Kumar Anand', style)
+
+// Single Line Comments
+/*
+  Multiline-Comments
+*/
