@@ -1,21 +1,15 @@
-// console Methods
+// let var const
 
-console.log("Hello world!")
+const arr = [1, 2, 3, 4]
+arr.push(5)
+console.log(arr)
 
-console.log(10, 'imskanand', true)
+const person = {
+  name: 'John'
+}
 
-console.table({ name: 'shubham', email: 'imskana@nd.com' })
+person.email = "imskanand@gmail.com"
+console.log(person)
 
-console.group('Attributes')
-console.log(21)
-console.warn('warning')
-console.error('error')
-console.groupEnd()
-
-const style = 'padding:10px; background-color:green; text:white;'
-console.log('%c Shubham Kumar Anand', style)
-
-// Single Line Comments
-/*
-  Multiline-Comments
-*/
+const name = 'imskanand', age = 21, isMarried = false;
+console.log(name, age, isMarried)
