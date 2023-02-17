@@ -1,14 +1,7 @@
-// Primitive Data Types Stored on the Stack
-// Non-Primitive Data Types Stored on the Heap with the reference to the stack
+console.log('foo' / 2)
+console.log(+'100')
+console.log(undefined+undefined)
 
-const person = {
-  name: 'John',
-  email: 'john@example.com'
-}
-
-console.log(person)
-const person2 = person
-
-person2.name = 'John Smith'
-console.log(person2)
-console.log(person)
+const age = '21.6';
+console.log(age.toString())
+console.log(parseFloat(21.6))
