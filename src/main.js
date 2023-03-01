@@ -1,7 +1,7 @@
-console.log('foo' / 2)
-console.log(+'100')
-console.log(undefined+undefined)
+// Comparisons Operator
 
-const age = '21.6';
-console.log(age.toString())
-console.log(parseFloat(21.6))
+let x = 2 == '2';
+x = 2 === '2';
+x = 2 != '2';
+x = 2 !== '2';
+console.log(x);
