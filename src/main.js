@@ -1,18 +1,24 @@
-// String
+// Numbers
 
-const s = new String("imskanand How are you?");
-let x = s.__proto__;
+let num = 21.3214;
+let x;
+x = new Number(31.324)
 
-x = s.includes('Hello')
-x = s.substring(1, 4)
-x = s.slice(-1)
-x = s.valueOf()
-x = s.split(' ')
+// Find the length of the number
+x = x.toString().length
+
+// Fixed decimal
+x = x.toFixed(2)
+
+x = num.toPrecision(4)
+
+x = num.toExponential(2)
+
+x = num.toLocaleString('en-IN')
+
+x = num.valueOf()
+
+x = Number.MAX_VALUE
+x = Number.MIN_VALUE
+
 console.log(x)
-
-// challenge
-
-let myRole = 'developer'
-myRole = myRole.charAt(0).toUpperCase() + myRole.substring(1)
-myRole = myRole.charAt(0).toUpperCase() + myRole.slice(1,myRole.length)
-console.log(myRole)
