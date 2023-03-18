@@ -1,24 +1,12 @@
-// Numbers
+// Math Object in JavaScript
 
-let num = 21.3214;
-let x;
-x = new Number(31.324)
+console.log(Math)
 
-// Find the length of the number
-x = x.toString().length
-
-// Fixed decimal
-x = x.toFixed(2)
-
-x = num.toPrecision(4)
-
-x = num.toExponential(2)
-
-x = num.toLocaleString('en-IN')
-
-x = num.valueOf()
-
-x = Number.MAX_VALUE
-x = Number.MIN_VALUE
-
+let x = Math.sqrt(6)
+x = Math.round(4.4)
+x = Math.floor(4.3)
+x = Math.ceil(4.2)
+x = Math.pow(3, 4)
+x= Math.min(Number.MAX_SAFE_INTEGER, Number.MIN_SAFE_INTEGER)
+x= Math.max(Number.MAX_SAFE_INTEGER, Number.MIN_SAFE_INTEGER)
 console.log(x)
